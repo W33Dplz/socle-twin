@@ -158,7 +158,7 @@ The graph says what exists. The knowledge base is meant to say how the company w
 
 ## 7. MCP gateway, multi-tenant
 
-**Status: In design.** A read-only MCP server with schema-generated tools and a human-approval gate on outbound messages was prototyped on the legal corpus. Known gap: an agent with its own mail connector could bypass the send guard. Closing it is a design requirement here.
+**Status: In design.** A read-only MCP server with schema-generated tools and a human-approval gate on outbound messages was prototyped on the legal corpus.
 
 One gateway is specified to expose each tenant's twin to any MCP-compatible agent. As the only way in, it is where isolation, permissions, approvals and audit will be enforced.
 
@@ -246,7 +246,7 @@ The cache is designed around a stable serialisation of the schema, with the brea
 
 ### Today: Done by hand, with Claude
 
-Since spring 2026 the two founders have built parts of this by hand with Claude, across three client engagements (property management, joinery, property development).
+Since spring 2026 the two founders have built parts of this by hand with Claude, across three client engagements (property management, joinery, property development) and inside Derivatives Academy itself (financial training), our own first test case.
 
 The pieces so far: a read-only adapter feeding a canonical model on one prototype, a typed extraction over one client's documents, and an audit under way for a third client. A separate legal-corpus prototype exercised the knowledge base and the read-only MCP pattern.
 
