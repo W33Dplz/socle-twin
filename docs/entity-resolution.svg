@@ -92,7 +92,7 @@
 <text class="lb" x="880.0" y="222.0" style="text-anchor:start">accept</text>
 <path class="arh" d="M870.0 336.0 L870.0 370.0 L732.0 370.0" marker-end="url(#er-w-ahh)"/>
 <text class="lb" x="880.0" y="358.0" style="text-anchor:start">reject</text>
-<text x="480.0" y="438.0" class="s ctr">Each decision will store score, evidence, rationale, model version and reviewer, and a merge can be undone from its lineage.</text>
+<text x="480.0" y="438.0" class="s ctr">Each decision stores score, evidence, rationale, model version and reviewer, and a merge can be undone from its lineage.</text>
 <text x="480.0" y="458.0" class="s ctr">Until enough human-reviewed pairs exist to calibrate the score, every Claude verdict goes to the human queue.</text>
 <rect class="cl" x="20.0" y="478.0" width="14" height="14" rx="4"/>
 <text class="s" x="40.0" y="489.0">Claude</text>

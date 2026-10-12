@@ -90,7 +90,7 @@
 <path class="ar" d="M460.0 226.0 L498.0 226.0" marker-end="url(#dp-w-ah)"/>
 <path class="ar" d="M700.0 226.0 L738.0 226.0" marker-end="url(#dp-w-ah)"/>
 <path class="wall" d="M20 294 H940"/>
-<text x="480.0" y="316.0" class="s ctr">Provenance and the audit trail are designed to follow each record from stage 3 to stage 8. Writes never use this path (see Figure 3).</text>
+<text x="480.0" y="316.0" class="s ctr">Provenance and the audit trail follow each record from stage 3 to stage 8. Writes never use this path (see Figure 3).</text>
 <rect class="cl" x="20.0" y="334.0" width="14" height="14" rx="4"/>
 <text class="s" x="40.0" y="345.0">Claude</text>
 <rect class="hu" x="99.8" y="334.0" width="14" height="14" rx="4"/>
