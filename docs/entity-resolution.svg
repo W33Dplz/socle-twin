@@ -1,0 +1,105 @@
+<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 508" role="img" aria-labelledby="er-w-ti er-w-de" preserveAspectRatio="xMidYMid meet">
+<title id="er-w-ti">Entity resolution pipeline</title><desc id="er-w-de">Mentions are grouped by blocking, scored in pairs and routed by score band. Strong matches link; ambiguous pairs go to Claude, which returns a verdict with a written rationale; uncertain verdicts go to a human review queue; clear non-matches stay distinct. Merges keep reversible lineage.</desc>
+<style>.dg text{font-family:'Schibsted Grotesk','Helvetica Neue',Arial,sans-serif;fill:#1d2433}
+.dg .t{font-size:14.5px;font-weight:600}
+.dg .s{font-size:12.5px;fill:#566078}
+.dg .h{font-size:11px;font-weight:700;letter-spacing:.09em;fill:#566078}
+.dg .lb{font-size:11.5px;font-weight:600;fill:#566078}
+.dg .pl{font-size:11.5px;font-weight:700}
+.dg .bg{fill:#fbfaf7}
+.dg .bx{fill:#fff;stroke:#bcc6e2;stroke-width:1.4}
+.dg .cl{fill:#e9eefb;stroke:#2f4b9c;stroke-width:1.7}
+.dg .hu{fill:#e6f5ed;stroke:#2e9e68;stroke-width:1.7}
+.dg .da{fill:#fdf3e1;stroke:#d9922b;stroke-width:1.5}
+.dg .dim{fill:#f6f7fb;stroke:#d5dbeb;stroke-width:1.2;stroke-dasharray:4 4}
+.dg .dim text,.dg text.dimt{fill:#8a93a8}
+.dg .pn{fill:#f6f7fb;stroke:#aab4d2;stroke-width:1.3}
+.dg .wall{fill:none;stroke:#aab4d2;stroke-width:1.3;stroke-dasharray:5 4}
+.dg .ar{fill:none;stroke:#2f4b9c;stroke-width:1.7}
+.dg .ard{fill:none;stroke:#b5bed8;stroke-width:1.5;stroke-dasharray:4 4}
+.dg .arh{fill:none;stroke:#2e9e68;stroke-width:1.7}
+.dg .badge{fill:#2f4b9c}
+.dg .badge-t{font-size:11px;font-weight:700;fill:#fff;text-anchor:middle}
+.dg .pill-cl{fill:#e9eefb;stroke:#9db0e6}
+.dg .pill-hu{fill:#e6f5ed;stroke:#8fd0b0}
+.dg .pill-da{fill:#fdf3e1;stroke:#ecc98c}
+.dg .pill-bx{fill:#fff;stroke:#bcc6e2}
+.dg .pill-hu-t{fill:#1f6f4b}
+.dg .pill-cl-t{fill:#2f4b9c}
+.dg .ctr{text-anchor:middle}
+.dg .mid{text-anchor:middle}
+</style>
+<defs><marker id="er-w-ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2f4b9c"/></marker><marker id="er-w-ahh" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2e9e68"/></marker><marker id="er-w-ahd" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#b5bed8"/></marker></defs>
+<rect class="bg" x="0" y="0" width="960" height="508" rx="16"/>
+<text class="h" x="20.0" y="28.0">CANDIDATES</text>
+<text class="h" x="540.0" y="28.0">ROUTE BY SCORE ZONE</text>
+<text class="h" x="800.0" y="28.0">OUTCOME</text>
+<rect class="bx" x="20.0" y="164.0" width="120.0" height="100.0" rx="12"/>
+<text x="80.0" y="193.8" class="t ctr">Mentions</text>
+<text x="80.0" y="212.8" class="s ctr">same client,</text>
+<text x="80.0" y="228.2" class="s ctr">several spellings,</text>
+<text x="80.0" y="243.8" class="s ctr">several tools</text>
+<rect class="bx" x="185.0" y="164.0" width="120.0" height="100.0" rx="12"/>
+<text x="245.0" y="201.5" class="t ctr">Blocking</text>
+<text x="245.0" y="220.5" class="s ctr">cheap keys cut</text>
+<text x="245.0" y="236.0" class="s ctr">the pair space</text>
+<rect class="bx" x="350.0" y="164.0" width="130.0" height="100.0" rx="12"/>
+<text x="415.0" y="192.5" class="t ctr">Pairwise</text>
+<text x="415.0" y="210.5" class="t ctr">scoring</text>
+<text x="415.0" y="229.5" class="s ctr">field-level</text>
+<text x="415.0" y="245.0" class="s ctr">evidence kept</text>
+<path class="ar" d="M140.0 214.0 L183.0 214.0" marker-end="url(#er-w-ah)"/>
+<path class="ar" d="M305.0 214.0 L348.0 214.0" marker-end="url(#er-w-ah)"/>
+<rect class="bx" x="540.0" y="44.0" width="190.0" height="76.0" rx="12"/>
+<text x="635.0" y="69.5" class="t ctr">Strong match</text>
+<text x="635.0" y="88.5" class="s ctr">exact identifiers or</text>
+<text x="635.0" y="104.0" class="s ctr">auto-merge zone: link</text>
+<rect class="cl" x="540.0" y="152.0" width="190.0" height="124.0" rx="12"/>
+<text x="635.0" y="186.0" class="t ctr">Claude arbitration</text>
+<text x="635.0" y="205.0" class="s ctr">ambiguous zone. Verdict:</text>
+<text x="635.0" y="220.5" class="s ctr">same, different or unsure,</text>
+<text x="635.0" y="236.0" class="s ctr">with a written rationale</text>
+<text x="635.0" y="251.5" class="s ctr">citing the field evidence</text>
+<rect class="bx" x="540.0" y="332.0" width="190.0" height="76.0" rx="12"/>
+<text x="635.0" y="357.5" class="t ctr">Stays distinct</text>
+<text x="635.0" y="376.5" class="s ctr">auto-reject zone, or a</text>
+<text x="635.0" y="392.0" class="s ctr">&quot;different&quot; verdict</text>
+<path class="ar" d="M480.0 214.0 L510.0 214.0"/>
+<path class="ar" d="M510.0 214.0 L510.0 82.0 L538.0 82.0" marker-end="url(#er-w-ah)"/>
+<path class="ar" d="M510.0 214.0 L538.0 214.0" marker-end="url(#er-w-ah)"/>
+<path class="ar" d="M510.0 214.0 L510.0 370.0 L538.0 370.0" marker-end="url(#er-w-ah)"/>
+<rect class="da" x="800.0" y="44.0" width="140.0" height="152.0" rx="12"/>
+<text x="870.0" y="90.8" class="t ctr">Merge with</text>
+<text x="870.0" y="108.8" class="t ctr">reversible lineage</text>
+<text x="870.0" y="127.8" class="s ctr">canonical id,</text>
+<text x="870.0" y="143.2" class="s ctr">source refs,</text>
+<text x="870.0" y="158.8" class="s ctr">decision log</text>
+<rect class="hu" x="800.0" y="238.0" width="140.0" height="98.0" rx="12"/>
+<text x="870.0" y="257.8" class="t ctr">Human review</text>
+<text x="870.0" y="275.8" class="t ctr">queue</text>
+<text x="870.0" y="294.8" class="s ctr">unsure or conflicting</text>
+<text x="870.0" y="310.2" class="s ctr">verdicts; rationale</text>
+<text x="870.0" y="325.8" class="s ctr">already written</text>
+<path class="ar" d="M730.0 82.0 L798.0 82.0" marker-end="url(#er-w-ah)"/>
+<path class="ar" d="M730.0 172.0 L798.0 172.0" marker-end="url(#er-w-ah)"/>
+<text class="lb ctr" x="764.0" y="162.0">same</text>
+<path class="ar" d="M635.0 276.0 L635.0 330.0" marker-end="url(#er-w-ah)"/>
+<text class="lb" x="641.0" y="308.0" style="text-anchor:start">different</text>
+<path class="ar" d="M730.0 256.0 L798.0 256.0" marker-end="url(#er-w-ah)"/>
+<text class="lb ctr" x="764.0" y="233.0">unsure or</text>
+<text class="lb ctr" x="764.0" y="246.0">conflict</text>
+<path class="arh" d="M870.0 238.0 L870.0 198.0" marker-end="url(#er-w-ahh)"/>
+<text class="lb" x="880.0" y="222.0" style="text-anchor:start">accept</text>
+<path class="arh" d="M870.0 336.0 L870.0 370.0 L732.0 370.0" marker-end="url(#er-w-ahh)"/>
+<text class="lb" x="880.0" y="358.0" style="text-anchor:start">reject</text>
+<text x="480.0" y="438.0" class="s ctr">Each decision will store score, evidence, rationale, model version and reviewer, and a merge can be undone from its lineage.</text>
+<text x="480.0" y="458.0" class="s ctr">Until enough human-reviewed pairs exist to calibrate the score, every Claude verdict goes to the human queue.</text>
+<rect class="cl" x="20.0" y="478.0" width="14" height="14" rx="4"/>
+<text class="s" x="40.0" y="489.0">Claude</text>
+<rect class="hu" x="99.8" y="478.0" width="14" height="14" rx="4"/>
+<text class="s" x="119.8" y="489.0">Person</text>
+<rect class="da" x="179.6" y="478.0" width="14" height="14" rx="4"/>
+<text class="s" x="199.6" y="489.0">Data store</text>
+<rect class="bx" x="284.6" y="478.0" width="14" height="14" rx="4"/>
+<text class="s" x="304.6" y="489.0">Deterministic code</text>
+</svg>

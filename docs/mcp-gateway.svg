@@ -1,0 +1,98 @@
+<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 478" role="img" aria-labelledby="gw-w-ti gw-w-de" preserveAspectRatio="xMidYMid meet">
+<title id="gw-w-ti">Multi-tenant MCP gateway</title><desc id="gw-w-de">Agents connect to one MCP gateway. The gateway authenticates and binds the session to one tenant, generates tools from that tenant&#x27;s schema, and splits into a read path and a write path. Reads reach only the session&#x27;s tenant store. Writes are proposed actions that a person approves before they reach source systems. An append-only audit log records everything.</desc>
+<style>.dg text{font-family:'Schibsted Grotesk','Helvetica Neue',Arial,sans-serif;fill:#1d2433}
+.dg .t{font-size:14.5px;font-weight:600}
+.dg .s{font-size:12.5px;fill:#566078}
+.dg .h{font-size:11px;font-weight:700;letter-spacing:.09em;fill:#566078}
+.dg .lb{font-size:11.5px;font-weight:600;fill:#566078}
+.dg .pl{font-size:11.5px;font-weight:700}
+.dg .bg{fill:#fbfaf7}
+.dg .bx{fill:#fff;stroke:#bcc6e2;stroke-width:1.4}
+.dg .cl{fill:#e9eefb;stroke:#2f4b9c;stroke-width:1.7}
+.dg .hu{fill:#e6f5ed;stroke:#2e9e68;stroke-width:1.7}
+.dg .da{fill:#fdf3e1;stroke:#d9922b;stroke-width:1.5}
+.dg .dim{fill:#f6f7fb;stroke:#d5dbeb;stroke-width:1.2;stroke-dasharray:4 4}
+.dg .dim text,.dg text.dimt{fill:#8a93a8}
+.dg .pn{fill:#f6f7fb;stroke:#aab4d2;stroke-width:1.3}
+.dg .wall{fill:none;stroke:#aab4d2;stroke-width:1.3;stroke-dasharray:5 4}
+.dg .ar{fill:none;stroke:#2f4b9c;stroke-width:1.7}
+.dg .ard{fill:none;stroke:#b5bed8;stroke-width:1.5;stroke-dasharray:4 4}
+.dg .arh{fill:none;stroke:#2e9e68;stroke-width:1.7}
+.dg .badge{fill:#2f4b9c}
+.dg .badge-t{font-size:11px;font-weight:700;fill:#fff;text-anchor:middle}
+.dg .pill-cl{fill:#e9eefb;stroke:#9db0e6}
+.dg .pill-hu{fill:#e6f5ed;stroke:#8fd0b0}
+.dg .pill-da{fill:#fdf3e1;stroke:#ecc98c}
+.dg .pill-bx{fill:#fff;stroke:#bcc6e2}
+.dg .pill-hu-t{fill:#1f6f4b}
+.dg .pill-cl-t{fill:#2f4b9c}
+.dg .ctr{text-anchor:middle}
+.dg .mid{text-anchor:middle}
+</style>
+<defs><marker id="gw-w-ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2f4b9c"/></marker><marker id="gw-w-ahh" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2e9e68"/></marker><marker id="gw-w-ahd" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#b5bed8"/></marker></defs>
+<rect class="bg" x="0" y="0" width="960" height="478" rx="16"/>
+<text class="h" x="20.0" y="28.0">AGENTS AND CLIENTS</text>
+<rect class="bx" x="20.0" y="46.0" width="150.0" height="58.0" rx="12"/>
+<text x="95.0" y="70.2" class="t ctr">Claude</text>
+<text x="95.0" y="89.2" class="s ctr">agent or app</text>
+<path class="ar" d="M170.0 75.0 L192.0 75.0"/>
+<rect class="bx" x="20.0" y="122.0" width="150.0" height="58.0" rx="12"/>
+<text x="95.0" y="146.2" class="t ctr">Other MCP clients</text>
+<text x="95.0" y="165.2" class="s ctr">any compliant agent</text>
+<path class="ar" d="M170.0 151.0 L192.0 151.0"/>
+<rect class="bx" x="20.0" y="198.0" width="150.0" height="58.0" rx="12"/>
+<text x="95.0" y="222.2" class="t ctr">Staff cockpit</text>
+<text x="95.0" y="241.2" class="s ctr">chat for the team</text>
+<path class="ar" d="M170.0 227.0 L192.0 227.0"/>
+<path class="ar" d="M192.0 75.0 L192.0 227.0"/>
+<path class="ar" d="M192.0 151.0 L213.0 151.0" marker-end="url(#gw-w-ah)"/>
+<rect class="pn" x="215" y="34" width="450" height="316" rx="18"/>
+<text class="h" x="233.0" y="58.0">MCP GATEWAY, MULTI-TENANT</text>
+<rect class="bx" x="235.0" y="70.0" width="410.0" height="50.0" rx="12"/>
+<text x="440.0" y="90.2" class="t ctr">Authenticate, bind the session to one tenant</text>
+<text x="440.0" y="109.2" class="s ctr">tenant id is taken from the access token alone</text>
+<rect class="bx" x="235.0" y="140.0" width="410.0" height="50.0" rx="12"/>
+<text x="440.0" y="160.2" class="t ctr">Tools generated from that tenant&#x27;s schema</text>
+<text x="440.0" y="179.2" class="s ctr">the tool list follows the ontology; a role filters tools and fields</text>
+<path class="ar" d="M440.0 120.0 L440.0 138.0" marker-end="url(#gw-w-ah)"/>
+<rect class="hu" x="235.0" y="214.0" width="198.0" height="112.0" rx="12"/>
+<text x="334.0" y="249.8" class="t ctr">Write path</text>
+<text x="334.0" y="268.8" class="s ctr">propose, simulate,</text>
+<text x="334.0" y="284.2" class="s ctr">a person approves,</text>
+<text x="334.0" y="299.8" class="s ctr">re-check, execute once</text>
+<rect class="bx" x="447.0" y="214.0" width="198.0" height="112.0" rx="12"/>
+<text x="546.0" y="249.8" class="t ctr">Read path</text>
+<text x="546.0" y="268.8" class="s ctr">get, search, traverse,</text>
+<text x="546.0" y="284.2" class="s ctr">query knowledge;</text>
+<text x="546.0" y="299.8" class="s ctr">results carry provenance</text>
+<path class="ar" d="M334.0 190.0 L334.0 212.0" marker-end="url(#gw-w-ah)"/>
+<path class="ar" d="M546.0 190.0 L546.0 212.0" marker-end="url(#gw-w-ah)"/>
+<text class="h" x="700.0" y="28.0">TENANT STORES</text>
+<rect class="wall" x="692" y="38" width="246" height="204" rx="16" fill="none"/>
+<rect class="da" x="704.0" y="52.0" width="222.0" height="52.0" rx="10"/>
+<text x="815.0" y="73.2" class="t ctr">Tenant 1</text>
+<text x="815.0" y="92.2" class="s ctr">graph + knowledge base</text>
+<rect class="dim" x="704.0" y="116.0" width="222.0" height="52.0" rx="10"/>
+<text x="815.0" y="137.2" class="t ctr">Tenant 2</text>
+<text x="815.0" y="156.2" class="s ctr">no path by design</text>
+<rect class="dim" x="704.0" y="180.0" width="222.0" height="52.0" rx="10"/>
+<text x="815.0" y="201.2" class="t ctr">Tenant 3</text>
+<text x="815.0" y="220.2" class="s ctr">no path by design</text>
+<path class="ar" d="M645.0 270.0 L676.0 270.0 L676.0 78.0 L702.0 78.0" marker-end="url(#gw-w-ah)"/>
+<rect class="bx" x="704.0" y="290.0" width="222.0" height="58.0" rx="10"/>
+<text x="815.0" y="314.2" class="t ctr">Source systems</text>
+<text x="815.0" y="333.2" class="s ctr">ERP, CRM, mail, documents</text>
+<path class="arh" d="M334.0 326.0 L334.0 368.0 L676.0 368.0 L676.0 319.0 L702.0 319.0" marker-end="url(#gw-w-ahh)"/>
+<rect class="pill-hu" x="380.0" y="357.0" width="250.0" height="22" rx="11" stroke-width="1.2"/>
+<text class="pl pill-hu-t ctr" x="505.0" y="372.2">approved actions, separate connector</text>
+<rect class="bx" x="20.0" y="392.0" width="920.0" height="40.0" rx="10"/>
+<text x="480.0" y="416.5" class="t ctr">Append-only audit log per tenant: every read, proposal, approval, execution and refusal</text>
+<rect class="cl" x="20.0" y="452.0" width="14" height="14" rx="4"/>
+<text class="s" x="40.0" y="463.0">Claude</text>
+<rect class="hu" x="99.8" y="452.0" width="14" height="14" rx="4"/>
+<text class="s" x="119.8" y="463.0">Person</text>
+<rect class="da" x="179.6" y="452.0" width="14" height="14" rx="4"/>
+<text class="s" x="199.6" y="463.0">Data store</text>
+<rect class="bx" x="284.6" y="452.0" width="14" height="14" rx="4"/>
+<text class="s" x="304.6" y="463.0">Deterministic code</text>
+</svg>

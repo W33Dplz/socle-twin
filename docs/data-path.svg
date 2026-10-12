@@ -1,0 +1,102 @@
+<svg class="dg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 364" role="img" aria-labelledby="dp-w-ti dp-w-de" preserveAspectRatio="xMidYMid meet">
+<title id="dp-w-ti">Data path of Socle Twin</title><desc id="dp-w-de">Eight stages in one direction: company tools, read-only connectors, raw snapshots, Claude extraction, typed canonical graph, knowledge base, MCP gateway, agents and clients. A person reviews candidates between extraction and the graph.</desc>
+<style>.dg text{font-family:'Schibsted Grotesk','Helvetica Neue',Arial,sans-serif;fill:#1d2433}
+.dg .t{font-size:14.5px;font-weight:600}
+.dg .s{font-size:12.5px;fill:#566078}
+.dg .h{font-size:11px;font-weight:700;letter-spacing:.09em;fill:#566078}
+.dg .lb{font-size:11.5px;font-weight:600;fill:#566078}
+.dg .pl{font-size:11.5px;font-weight:700}
+.dg .bg{fill:#fbfaf7}
+.dg .bx{fill:#fff;stroke:#bcc6e2;stroke-width:1.4}
+.dg .cl{fill:#e9eefb;stroke:#2f4b9c;stroke-width:1.7}
+.dg .hu{fill:#e6f5ed;stroke:#2e9e68;stroke-width:1.7}
+.dg .da{fill:#fdf3e1;stroke:#d9922b;stroke-width:1.5}
+.dg .dim{fill:#f6f7fb;stroke:#d5dbeb;stroke-width:1.2;stroke-dasharray:4 4}
+.dg .dim text,.dg text.dimt{fill:#8a93a8}
+.dg .pn{fill:#f6f7fb;stroke:#aab4d2;stroke-width:1.3}
+.dg .wall{fill:none;stroke:#aab4d2;stroke-width:1.3;stroke-dasharray:5 4}
+.dg .ar{fill:none;stroke:#2f4b9c;stroke-width:1.7}
+.dg .ard{fill:none;stroke:#b5bed8;stroke-width:1.5;stroke-dasharray:4 4}
+.dg .arh{fill:none;stroke:#2e9e68;stroke-width:1.7}
+.dg .badge{fill:#2f4b9c}
+.dg .badge-t{font-size:11px;font-weight:700;fill:#fff;text-anchor:middle}
+.dg .pill-cl{fill:#e9eefb;stroke:#9db0e6}
+.dg .pill-hu{fill:#e6f5ed;stroke:#8fd0b0}
+.dg .pill-da{fill:#fdf3e1;stroke:#ecc98c}
+.dg .pill-bx{fill:#fff;stroke:#bcc6e2}
+.dg .pill-hu-t{fill:#1f6f4b}
+.dg .pill-cl-t{fill:#2f4b9c}
+.dg .ctr{text-anchor:middle}
+.dg .mid{text-anchor:middle}
+</style>
+<defs><marker id="dp-w-ah" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2f4b9c"/></marker><marker id="dp-w-ahh" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#2e9e68"/></marker><marker id="dp-w-ahd" viewBox="0 0 10 10" refX="8.6" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0.8L9.6 5L0 9.2z" fill="#b5bed8"/></marker></defs>
+<rect class="bg" x="0" y="0" width="960" height="364" rx="16"/>
+<text class="h" x="20.0" y="30.0">READ AND EXTRACT: read-only, replayable</text>
+<rect class="bx" x="20.0" y="48.0" width="200.0" height="84.0" rx="12"/>
+<text x="120.0" y="77.5" class="t ctr">Company tools</text>
+<text x="120.0" y="96.5" class="s ctr">ERP, CRM, mail, documents,</text>
+<text x="120.0" y="112.0" class="s ctr">spreadsheets: unchanged</text>
+<circle class="badge" cx="30.0" cy="45.0" r="10.5"/>
+<text class="badge-t" x="30.0" y="49.0">1</text>
+<rect class="bx" x="260.0" y="48.0" width="200.0" height="84.0" rx="12"/>
+<text x="360.0" y="77.5" class="t ctr">Read-only connectors</text>
+<text x="360.0" y="96.5" class="s ctr">one adapter per source type,</text>
+<text x="360.0" y="112.0" class="s ctr">read scopes only</text>
+<circle class="badge" cx="270.0" cy="45.0" r="10.5"/>
+<text class="badge-t" x="270.0" y="49.0">2</text>
+<rect class="da" x="500.0" y="48.0" width="200.0" height="84.0" rx="12"/>
+<text x="600.0" y="77.5" class="t ctr">Raw snapshots</text>
+<text x="600.0" y="96.5" class="s ctr">immutable, hashed,</text>
+<text x="600.0" y="112.0" class="s ctr">replayable</text>
+<circle class="badge" cx="510.0" cy="45.0" r="10.5"/>
+<text class="badge-t" x="510.0" y="49.0">3</text>
+<rect class="cl" x="740.0" y="48.0" width="200.0" height="84.0" rx="12"/>
+<text x="840.0" y="77.5" class="t ctr">Extraction</text>
+<text x="840.0" y="96.5" class="s ctr">schema-validated candidates,</text>
+<text x="840.0" y="112.0" class="s ctr">pointers to source spans</text>
+<circle class="badge" cx="750.0" cy="45.0" r="10.5"/>
+<text class="badge-t" x="750.0" y="49.0">4</text>
+<path class="ar" d="M220.0 90.0 L258.0 90.0" marker-end="url(#dp-w-ah)"/>
+<path class="ar" d="M460.0 90.0 L498.0 90.0" marker-end="url(#dp-w-ah)"/>
+<path class="ar" d="M700.0 90.0 L738.0 90.0" marker-end="url(#dp-w-ah)"/>
+<path class="ar" d="M840.0 132.0 L840.0 160.0 L120.0 160.0 L120.0 182.0" marker-end="url(#dp-w-ah)"/>
+<rect class="pill-hu" x="345.0" y="149.0" width="270.0" height="22" rx="11" stroke-width="1.2"/>
+<text class="pl pill-hu-t ctr" x="480.0" y="164.2">human review queue for uncertain cases</text>
+<rect class="da" x="20.0" y="184.0" width="200.0" height="84.0" rx="12"/>
+<text x="120.0" y="213.5" class="t ctr">Typed canonical graph</text>
+<text x="120.0" y="232.5" class="s ctr">entity resolution, versioned,</text>
+<text x="120.0" y="248.0" class="s ctr">provenance on every field</text>
+<circle class="badge" cx="30.0" cy="181.0" r="10.5"/>
+<text class="badge-t" x="30.0" y="185.0">5</text>
+<rect class="da" x="260.0" y="184.0" width="200.0" height="84.0" rx="12"/>
+<text x="360.0" y="213.5" class="t ctr">Knowledge base</text>
+<text x="360.0" y="232.5" class="s ctr">rules, procedures, documents,</text>
+<text x="360.0" y="248.0" class="s ctr">decisions on graph objects</text>
+<circle class="badge" cx="270.0" cy="181.0" r="10.5"/>
+<text class="badge-t" x="270.0" y="185.0">6</text>
+<rect class="bx" x="500.0" y="184.0" width="200.0" height="84.0" rx="12"/>
+<text x="600.0" y="213.5" class="t ctr">MCP gateway</text>
+<text x="600.0" y="232.5" class="s ctr">multi-tenant, read-only default,</text>
+<text x="600.0" y="248.0" class="s ctr">writes use a separate path</text>
+<circle class="badge" cx="510.0" cy="181.0" r="10.5"/>
+<text class="badge-t" x="510.0" y="185.0">7</text>
+<rect class="bx" x="740.0" y="184.0" width="200.0" height="84.0" rx="12"/>
+<text x="840.0" y="213.5" class="t ctr">Agents and clients</text>
+<text x="840.0" y="232.5" class="s ctr">Claude, other MCP clients,</text>
+<text x="840.0" y="248.0" class="s ctr">staff cockpit</text>
+<circle class="badge" cx="750.0" cy="181.0" r="10.5"/>
+<text class="badge-t" x="750.0" y="185.0">8</text>
+<path class="ar" d="M220.0 226.0 L258.0 226.0" marker-end="url(#dp-w-ah)"/>
+<path class="ar" d="M460.0 226.0 L498.0 226.0" marker-end="url(#dp-w-ah)"/>
+<path class="ar" d="M700.0 226.0 L738.0 226.0" marker-end="url(#dp-w-ah)"/>
+<path class="wall" d="M20 294 H940"/>
+<text x="480.0" y="316.0" class="s ctr">Provenance and the audit trail are designed to follow each record from stage 3 to stage 8. Writes never use this path (see Figure 3).</text>
+<rect class="cl" x="20.0" y="334.0" width="14" height="14" rx="4"/>
+<text class="s" x="40.0" y="345.0">Claude</text>
+<rect class="hu" x="99.8" y="334.0" width="14" height="14" rx="4"/>
+<text class="s" x="119.8" y="345.0">Person</text>
+<rect class="da" x="179.6" y="334.0" width="14" height="14" rx="4"/>
+<text class="s" x="199.6" y="345.0">Data store</text>
+<rect class="bx" x="284.6" y="334.0" width="14" height="14" rx="4"/>
+<text class="s" x="304.6" y="345.0">Deterministic code</text>
+</svg>
