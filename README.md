@@ -133,7 +133,7 @@ The graph says what exists. The knowledge base says how the company works, and i
 | Decisions | What was decided, by whom, when and why, and which earlier decision it replaces. | The object concerned. |
 
 - Item types are closed on function and open on subject: the type says what role an item plays (rule, procedure, source document, decision), and the subject stays free.
-- Validated knowledge lives as human-readable, versioned text files with structured metadata, and those files are the source of truth. Vector indexes, search indexes and graph views derive from them and rebuild at any time. Retrieval is only an index over the knowledge base.
+- Validated knowledge lives in a bitemporal PostgreSQL store, which is the source of truth: every value is versioned, dated and sourced, and exports to human-readable text files with structured metadata. Vector indexes, search indexes and graph views derive from that store and rebuild at any time. Retrieval is only an index over the knowledge base.
 - For each question, the twin assembles a bounded context pack: the relevant objects, their link neighbourhood, the attached knowledge and the provenance, within a token budget.
 - Facts extracted from a document stay candidates until a person validates them.
 
